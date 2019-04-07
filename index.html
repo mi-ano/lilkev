@@ -19,37 +19,37 @@
             <p>Score points by rolling the dice. Fist player to 100 wins. If you roll a 1, you lose your turn.</p>
         </div>
     </header>
-
+    
     <div class="grid">
-
         <div class="scoreCard">
             <button class="inst">&#9776 How to Play</button>
             <button class="btn-new"><i class="ion-ios-plus-outline"></i> New game</button>
             <img src="dice-5.png" alt="Dice" class="dice">
+            <div><label>1st to: <input type="text" name="1st to" class="playTill"></div>
             <button class="btn-roll"><i class="ion-ios-loop"></i> Roll dice</button>
             <button class="btn-hold"><i class="ion-ios-download-outline"></i> Hold</button>
-
-            </div>
-            
-            <div class="player-0-panel active">
-                <div class="player-name" id="name-0">Player 1</div>
-                <div class="player-score" id="score-0">43</div>
-                <div class="player-current-box">
-                    <div class="player-current-label">Current</div>
-                    <div class="player-current-score" id="current-0">11</div>
-                </div>
-            </div>
-            
-            <div class="player-1-panel">
-                <div class="player-name" id="name-1">Player 2</div>
-                <div class="player-score" id="score-1">72</div>
-                <div class="player-current-box">
-                    <div class="player-current-label">Current</div>
-                    <div class="player-current-score" id="current-1">0</div>
-                </div>
-            </div>      
+      
         </div>
-        <script src="js/jquery-3.3.1.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+                  
+        <div class="player-0-panel active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0">43</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0">11</div>
+            </div>
+        </div>
+                  
+        <div class="player-1-panel">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1">0</div>
+            </div>
+        </div>          
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
