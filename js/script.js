@@ -1,4 +1,4 @@
-//ui 
+//ui logic
 
 var scores, roundScore, activePlayer, inPlay, playTill, lastRoll;
 
@@ -70,6 +70,8 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
     }
   }
 });
+
+//business logic
 
 function nextPlayer() {
   activePlayer === 0 ? (activePlayer = 1) : (activePlayer = 0);
