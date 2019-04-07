@@ -29,6 +29,7 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
         "#current-" + activePlayer
       ).textContent = roundScore;
     } else {
+      window.alert("sorry you have rolled 1");
       //next player
       nextPlayer();
     }
