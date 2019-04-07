@@ -44,3 +44,6 @@ HTML | CSS | JavaScript
 ### Links
 
 Git Hub Webpage: https://github.com/mi-ano/lilkev
+
+### License 
+@ryanmiano
