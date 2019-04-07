@@ -20,7 +20,7 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     //2. Display result
     var diceDOM = document.querySelector(".dice");
     diceDOM.style.visibility = "visible";
-    diceDOM.src = "https://carterrink.com/assets/images/dice-" + dice + ".png";
+    diceDOM.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/243004/dice-' + dice + '.png';
     //3. Update round score, only if rolled number was not a 1
     if (dice !== 1) {
       //add the score
